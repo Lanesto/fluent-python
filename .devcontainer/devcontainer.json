@@ -1,0 +1,34 @@
+{
+	"name": "Fluent Python",
+	"build": {
+		"context": "..",
+		"dockerfile": "Dockerfile",
+	},
+
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
+    "workspaceFolder": "/workspace",
+
+	"settings": {
+		"files.eol": "\n",
+		"terminal.integrated.shell.linux": null,
+		"python.pythonPath": "/usr/local/bin/python",
+		"python.linting.enabled": true,
+		"python.linting.flake8Enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.linting.pydocstyleEnabled": true,
+		"python.linting.mypyEnabled": true,
+		"python.linting.mypyArgs": [
+			"--ignore-missing-imports",
+			"--follow-imports=silent",
+			"--show-column-numbers"
+		],
+	},
+
+	"extensions": [
+		"ms-python.python",
+		"ms-toolsai.jupyter",
+		"donjayamanne.python-extension-pack",
+		"ms-python.vscode-pylance"
+	],
+
+}
