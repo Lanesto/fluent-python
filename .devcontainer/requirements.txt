@@ -6,3 +6,6 @@ black
 jupyter
 pycodestyle_magic
 mypy-ipython
+
+aiohttp
+tqdm
