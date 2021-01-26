@@ -1,0 +1,8 @@
+flake8
+pylint
+pydocstyle
+mypy
+black
+jupyter
+pycodestyle_magic
+mypy-ipython

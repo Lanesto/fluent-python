@@ -22,13 +22,15 @@
 			"--follow-imports=silent",
 			"--show-column-numbers"
 		],
+		"python.formatting.provider": "black"
 	},
 
 	"extensions": [
 		"ms-python.python",
 		"ms-toolsai.jupyter",
 		"donjayamanne.python-extension-pack",
-		"ms-python.vscode-pylance"
+		"ms-python.vscode-pylance",
+		"lextudio.restructuredtext"
 	],
 
 }
