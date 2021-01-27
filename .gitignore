@@ -1,5 +1,6 @@
 downloads/
 mock_resources/
+*.pickle
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,code
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,code
